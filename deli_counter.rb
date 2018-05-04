@@ -16,7 +16,6 @@ def take_a_number(arr, name)
   puts "Welcome, #{name}. You are number #{arr.length} in line."
 end
 
-def now_serving(arr) {
+def now_serving(arr) 
   puts "Currently serving #{arr.unshift()}."
 end
-}
