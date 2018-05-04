@@ -13,5 +13,5 @@ end
 
 def take_a_number(arr, name)
   arr.push(name)
-  puts "Welcome"
+  puts "Welcome, "
 end
