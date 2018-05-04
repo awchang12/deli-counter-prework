@@ -17,5 +17,7 @@ def take_a_number(arr, name)
 end
 
 def now_serving(arr) 
+  if(arr.length == 0)
+    puts ""
   puts "Currently serving #{arr.shift()}."
 end
